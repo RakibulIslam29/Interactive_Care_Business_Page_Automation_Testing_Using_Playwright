@@ -1,0 +1,20 @@
+{
+  "name": "interactive-care",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "check-all-functionality": "npm run business-paage-UI-check && npm run check-search-box-functionality && npm run check-get-in-touch-button-functionality && npm run check-interactive-cares-chatbot-functionality",
+    "business-paage-UI-check": "npx playwright test tests/testcases/BusinessPageUITest.spec.js --workers=1 --project=chromium --headed",
+    "check-search-box-functionality": "npx playwright test tests/testcases/search_box_functionality.spec.js --workers=1 --project=chromium --headed",
+    "check-get-in-touch-button-functionality": "npx playwright test tests/testcases/get_in_touch_button_functionality.spec.js --workers=1 --project=chromium --headed",
+    "check-interactive-cares-chatbot-functionality": "npx playwright test tests/testcases/interactive_cares_chatbot_functionality.spec.js --workers=1 --project=chromium --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.9"
+  }
+}
