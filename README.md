@@ -1,7 +1,7 @@
 
-# Automated testing of Interactive Care business page using Playwright with Page Object Model (POM)
+# Automated testing of Interactive Cares business page using Playwright with Page Object Model (POM)
 
-This project aims to automate testing of the Interactive Care business page using Playwright, leveraging the Page Object Model (POM) design pattern. It includes tests for verifying UI elements, functionality such as search boxes, "Get in Touch" button interactions, and the chatbot.
+This project aims to automate testing of the Interactive Cares business page using Playwright, leveraging the Page Object Model (POM) design pattern. It includes tests for verifying UI elements, functionality such as search boxes, "Get in Touch" button interactions, and the chatbot.
 
 
 ## Prerequisites
@@ -16,7 +16,7 @@ Ensure you have the following installed:
 Install my-project with npm
 1. Clone the repository:
 ```bash
-  https://github.com/RakibulIslam29/Interactive_Care_Business_Page_Automation_Testing_Using_Playwright.git
+  https://github.com/RakibulIslam29/Interactive_Cares_Business_Page_Automation_Testing_Using_Playwright.git
 
 ```
 2. Install dependencies:
@@ -44,7 +44,7 @@ To run the automated tests using Playwright, use the following command:
 ```bash
   npm run check-get-in-touch-button-functionality
 ```
-5. Check Interactive Cares Chatbot Functionality
+5. Check Interactive Caress Chatbot Functionality
 ```bash
   npm run check-get-in-touch-button-functionality
 ```
